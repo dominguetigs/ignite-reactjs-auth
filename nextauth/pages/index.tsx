@@ -16,8 +16,6 @@ export default function Home() {
       password,
     };
 
-    console.log(data);
-
     await signIn(data);
   }
 
